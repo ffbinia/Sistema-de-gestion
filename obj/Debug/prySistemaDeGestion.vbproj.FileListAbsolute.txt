@@ -1,0 +1,14 @@
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.vbproj.AssemblyReference.cache
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.Resources.resources
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.vbproj.GenerateResource.cache
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.vbproj.CoreCompileInputs.cache
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\bin\Debug\prySistemaDeGestion.exe.config
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\bin\Debug\prySistemaDeGestion.exe
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\bin\Debug\prySistemaDeGestion.pdb
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\bin\Debug\prySistemaDeGestion.xml
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.exe
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.xml
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.pdb
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.frmPrincipal.resources
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.frmRegistrodeEmpleados.resources
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.frmListadoEmpleados.resources
