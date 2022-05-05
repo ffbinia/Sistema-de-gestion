@@ -23,7 +23,7 @@ Partial Class frmPrincipal
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.mnuPrincipal = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistroDeEmpleadosCTRLToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AbrirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,26 +31,29 @@ Partial Class frmPrincipal
         Me.VistaPreviaDeImpresionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ListadoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HerramientasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.timerDiaHora = New System.Windows.Forms.Timer(Me.components)
-        Me.lblDiaHora = New System.Windows.Forms.Label()
         Me.EmpleadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditorDeTextoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MenuStrip1.SuspendLayout()
+        Me.HerramientasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tmrDiaHora = New System.Windows.Forms.Timer(Me.components)
+        Me.lblDiaHora = New System.Windows.Forms.Label()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.tssHorayFecha = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.mnuPrincipal.SuspendLayout()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'MenuStrip1
+        'mnuPrincipal
         '
-        Me.MenuStrip1.BackColor = System.Drawing.Color.Gray
-        Me.MenuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.ListadoToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.AyudaToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.MenuStrip1.Size = New System.Drawing.Size(483, 24)
-        Me.MenuStrip1.TabIndex = 0
-        Me.MenuStrip1.Text = "mnsInicio"
+        Me.mnuPrincipal.BackColor = System.Drawing.Color.Gray
+        Me.mnuPrincipal.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible
+        Me.mnuPrincipal.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.ListadoToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.AyudaToolStripMenuItem})
+        Me.mnuPrincipal.Location = New System.Drawing.Point(0, 0)
+        Me.mnuPrincipal.Name = "mnuPrincipal"
+        Me.mnuPrincipal.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
+        Me.mnuPrincipal.Size = New System.Drawing.Size(483, 24)
+        Me.mnuPrincipal.TabIndex = 0
+        Me.mnuPrincipal.Text = "mnsInicio"
         '
         'ArchivoToolStripMenuItem
         '
@@ -96,30 +99,6 @@ Partial Class frmPrincipal
         Me.ListadoToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
         Me.ListadoToolStripMenuItem.Text = "Listado"
         '
-        'HerramientasToolStripMenuItem
-        '
-        Me.HerramientasToolStripMenuItem.Name = "HerramientasToolStripMenuItem"
-        Me.HerramientasToolStripMenuItem.Size = New System.Drawing.Size(90, 20)
-        Me.HerramientasToolStripMenuItem.Text = "Herramientas"
-        '
-        'AyudaToolStripMenuItem
-        '
-        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
-        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
-        Me.AyudaToolStripMenuItem.Text = "Ayuda"
-        '
-        'timerDiaHora
-        '
-        Me.timerDiaHora.Enabled = True
-        '
-        'lblDiaHora
-        '
-        Me.lblDiaHora.AutoSize = True
-        Me.lblDiaHora.Location = New System.Drawing.Point(12, 160)
-        Me.lblDiaHora.Name = "lblDiaHora"
-        Me.lblDiaHora.Size = New System.Drawing.Size(0, 13)
-        Me.lblDiaHora.TabIndex = 2
-        '
         'EmpleadosToolStripMenuItem
         '
         Me.EmpleadosToolStripMenuItem.Name = "EmpleadosToolStripMenuItem"
@@ -132,24 +111,65 @@ Partial Class frmPrincipal
         Me.EditorDeTextoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.EditorDeTextoToolStripMenuItem.Text = "Editor de texto"
         '
+        'HerramientasToolStripMenuItem
+        '
+        Me.HerramientasToolStripMenuItem.Name = "HerramientasToolStripMenuItem"
+        Me.HerramientasToolStripMenuItem.Size = New System.Drawing.Size(90, 20)
+        Me.HerramientasToolStripMenuItem.Text = "Herramientas"
+        '
+        'AyudaToolStripMenuItem
+        '
+        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.AyudaToolStripMenuItem.Text = "Ayuda"
+        '
+        'tmrDiaHora
+        '
+        Me.tmrDiaHora.Enabled = True
+        '
+        'lblDiaHora
+        '
+        Me.lblDiaHora.AutoSize = True
+        Me.lblDiaHora.Location = New System.Drawing.Point(12, 160)
+        Me.lblDiaHora.Name = "lblDiaHora"
+        Me.lblDiaHora.Size = New System.Drawing.Size(0, 13)
+        Me.lblDiaHora.TabIndex = 2
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tssHorayFecha})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 160)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(483, 22)
+        Me.StatusStrip1.TabIndex = 3
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'tssHorayFecha
+        '
+        Me.tssHorayFecha.Name = "tssHorayFecha"
+        Me.tssHorayFecha.Size = New System.Drawing.Size(0, 17)
+        '
         'frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(483, 182)
+        Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.lblDiaHora)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.MainMenuStrip = Me.MenuStrip1
+        Me.Controls.Add(Me.mnuPrincipal)
+        Me.MainMenuStrip = Me.mnuPrincipal
         Me.Name = "frmPrincipal"
         Me.Text = "Sistema de Gestion - Modulo Recursos Humanos"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
+        Me.mnuPrincipal.ResumeLayout(False)
+        Me.mnuPrincipal.PerformLayout()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents mnuPrincipal As MenuStrip
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RegistroDeEmpleadosCTRLToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AbrirToolStripMenuItem As ToolStripMenuItem
@@ -159,8 +179,10 @@ Partial Class frmPrincipal
     Friend WithEvents ListadoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents HerramientasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AyudaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents timerDiaHora As Timer
+    Friend WithEvents tmrDiaHora As Timer
     Friend WithEvents lblDiaHora As Label
     Friend WithEvents EmpleadosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EditorDeTextoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents tssHorayFecha As ToolStripStatusLabel
 End Class

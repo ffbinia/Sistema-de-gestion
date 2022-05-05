@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmEditordeTexto.Designer.vb">
+      <DependentUpon>frmEditordeTexto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditordeTexto.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmListadoEmpleados.Designer.vb">
       <DependentUpon>frmListadoEmpleados.vb</DependentUpon>
     </Compile>
@@ -109,6 +115,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmEditordeTexto.resx">
+      <DependentUpon>frmEditordeTexto.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListadoEmpleados.resx">
       <DependentUpon>frmListadoEmpleados.vb</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +145,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\agregar img.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

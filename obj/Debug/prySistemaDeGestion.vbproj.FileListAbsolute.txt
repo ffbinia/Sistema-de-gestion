@@ -12,3 +12,4 @@ C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATO
 C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.frmPrincipal.resources
 C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.frmRegistrodeEmpleados.resources
 C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.frmListadoEmpleados.resources
+C:\Users\feder\Escritorio\Feduki\fede\ANALISTA EN SISTEMAS\2º SEMESTRE\LABORATORIO DE PROGRAMACION II\PRACTICA\prySistemaDeGestion\obj\Debug\prySistemaDeGestion.frmEditordeTexto.resources
